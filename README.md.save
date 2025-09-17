@@ -1,0 +1,172 @@
+Last login: Mon Sep 15 10:21:38 on ttys001
+~ ❯ cd vendure-shop                                                                       08:14:29
+cd: no such file or directory: vendure-shop
+~ ❯ cd projects/vendure-shop/storefront                                                                        08:14:33
+~/projects/vendure-shop/storefront ❯                                                                        08:14:38
+~/projects/vendure-shop/storefront ❯                                                                        08:14:38
+~/projects/vendure-shop/storefront ❯                                                                        08:14:39
+~/projects/vendure-shop/storefront ❯ cd ..                                                                                                     08:14:39
+~/projects/vendure-shop ❯ cd ..                                                                       12:26:52
+~/projects ❯ cd fussi                                                                                                12:26:53
+cd: no such file or directory: fussi
+~/projects ❯ mkdir fussi                                                                           12:26:58
+~/projects ❯ cd fussi                                                                        12:27:02
+~/projects/fussi ❯                                                                        12:27:03
+~/projects/fussi ❯                                                                        12:27:03
+~/projects/fussi ❯                                                                        12:27:03
+~/projects/fussi ❯ bun init -y                                                                              12:27:04
+zsh: command not found: bun
+~/projects/fussi ❯ npm install -g bun # the last `npm` command you'll ever need                                                                       12:27:06
+
+added 2 packages in 5s
+~/projects/fussi ❯ bun init -y                                                                    6s 12:27:32
+b + .gitignore
+ + CLAUDE.md
+ + index.ts
+ + tsconfig.json (for editor autocomplete)
+ + README.md
+
+To get started, run:
+
+    bun run index.ts
+
+bun install v1.2.22 (6bafe260)
+
++ @types/bun@1.2.22
++ typescript@5.9.2
+
+7 packages installed [1.95s]
+
+~/projects/fussi ❯ bun add playwright                                                                       12:27:38
+bun add v1.2.22 (6bafe260)
+
+installed playwright@1.55.0 with binaries:
+ - playwright
+
+3 packages installed [1416.00ms]
+~/projects/fussi ❯ bunx playwright install chromium                                                                       12:27:43
+
+Downloading Chromium 140.0.7339.16 (playwright build v1187) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1187/chromium-mac-arm64.zip
+129.7 MiB [====================] 100% 0.0s
+Chromium 140.0.7339.16 (playwright build v1187) downloaded to /Users/Wilfried/Library/Caches/ms-playwright/chromium-1187
+Downloading Chromium Headless Shell 140.0.7339.16 (playwright build v1187) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1187/chromium-headless-shell-mac-arm64.zip
+81.9 MiB [====================] 100% 0.0s
+Chromium Headless Shell 140.0.7339.16 (playwright build v1187) downloaded to /Users/Wilfried/Library/Caches/ms-playwright/chromium_headless_shell-1187
+~/projects/fussi ❯ HEADLESS=0 bun run scrape_ucl.ts
+  UW PICO 5.09                                                 New Buffer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                     [ Read 15 lines ]
+^G Get Help         ^O WriteOut         ^R Read File        ^Y Prev Pg          ^K Cut Text         ^C Cur Pos
+^X Exit             ^J Justify          ^W Where is         ^V Next Pg          ^U UnCut Text       ^T To Spell
+  UW PICO 5.09                                              File: README.md
+
+# fussi
+
+To install dependencies:
+
+```bash
+bun install
+```
+
+To run:
+
+```bash
+bun run index.ts
+```
+
+This project was created using `bun init` in bun v1.2.22. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help         ^O WriteOut         ^R Read File        ^Y Prev Pg          ^K Cut Text         ^C Cur Pos
+^X Exit             ^J Justify          ^W Where is         ^V Next Pg          ^U UnCut Text       ^T To Spellcd..
+# fussi
+
+To install dependencies:
+
+```bash
+bun install
+```
+
+To run:
+
+```bash
+bun run index.ts
+```
+
+This project was created using `bun init` in bun v1.2.22. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
